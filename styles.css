@@ -1,0 +1,117 @@
+*{
+ margin: 0;
+
+}
+body{
+ background-color: black;
+ color: white;
+
+}
+.navbar-ul{
+ display: flex;
+ justify-content: space-evenly;
+
+ background-color:teal;
+ padding: 10px;
+}
+.navbar-ul > li{
+ list-style: none;
+}
+.navbar-ul >li >a{
+ text-decoration: none;
+ font-size: 20px;
+ color: #fff;
+ margin: 10px;
+}
+.navbar-ul > li >a:hover{
+ color: orangered;
+ background-color: black;
+}
+.felix{
+ 
+ flex: 1;
+}
+
+.main{
+ display: flex;
+ justify-content: space-between;
+}
+.detail{
+ width: 40%;
+ color: #fff;
+ margin-top: 50px;
+ justify-content: center;
+}
+h1{
+ padding: 20px;
+ font-size: 80px;
+ text-align: center;
+ font-family: 'Rouge Script', cursive;
+}
+p{
+ text-align: center;
+ padding: 20px;
+ font-family: 'Cookie', cursive;
+ font-size: 30px;
+}
+.iphone{
+ border-radius: 20px;
+ display: block;
+ margin: 0 auto;
+}
+.btn{
+ display: flex;
+ justify-content: center;
+}
+button{
+ margin: 10px;
+ border-radius: 6px;
+ font-size: auto;
+ background-color:orange;
+ display: inline-block;
+ text-align: center;
+}
+button:hover{
+ background-color:black;
+ color: #fff;
+}
+.image{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ width: 60%;
+}
+.image > img{
+ width:200px;
+ height:200px;
+}
+
+@media screen and (max-width:500px){
+.image > .big{
+ width: 300px;
+ height: 300px;
+}
+}
+
+.image > img:hover{
+ opacity: 0.3;
+}
+.comment{
+ text-align: center;
+}
+
+.footer{
+color: #007BFF;
+display: flex;
+justify-content: space-evenly;
+margin-top: 30px;
+}
+.cta{
+ display: flex;
+justify-content: space-evenly;
+padding: 10px;
+background-color: black;
+color: #fff;
+
+}
+
