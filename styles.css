@@ -7,7 +7,7 @@ body {
 }
 .navbar-ul {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 
   background-color: teal;
   padding: 10px;
